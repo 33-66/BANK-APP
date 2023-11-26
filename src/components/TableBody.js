@@ -6,7 +6,7 @@ function TableBody({transactions,handleDelete}) {
       <table className="striped-table">
         <thead>
           <tr>
-            <th>Id</th>
+             <th>Id</th>
             <th>Description</th>
             <th>Category</th>
             <th>Amount</th>

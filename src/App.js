@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React,{ useEffect, useState } from 'react';
 import TableHead from './components/TableHead';
 import TableBody from './components/TableBody';
 import SearchBar from './components/SearchBar';

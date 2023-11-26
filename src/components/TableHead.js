@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 
 function TableHead({transactions,setTransactions,onUpdateState}) {
         const [description,setDescription] = useState('');
@@ -32,6 +32,8 @@ function TableHead({transactions,setTransactions,onUpdateState}) {
     return (
         <form onSubmit={handleAdd}>
         <div className="container">
+               
+               
                 <div className="transaction">
             
                         <label htmlFor="transaction">Description</label>
