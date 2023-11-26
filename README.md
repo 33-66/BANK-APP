@@ -19,7 +19,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 This app does a very simple job where u can add a transaction ,delete and search a transaction.
-
+U can also follow this link https://genuine-swan-677704.netlify.app/
 #### Technologies used 
 In this project i have used technologies  like :
 -  Java script
