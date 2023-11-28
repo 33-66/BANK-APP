@@ -10,7 +10,7 @@ function App() {
 const [transactions,setTransactions] = useState([]);
 
 useEffect(() => {
-  fetch(' http://localhost:3000/transactions')
+  fetch(' https://banks-ij3u.onrender.com/transactions')
   .then(res => res.json())
   .then(data => setTransactions(data));
 },[])
